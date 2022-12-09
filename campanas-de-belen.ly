@@ -1,8 +1,8 @@
 \version "2.22.1"
 \header {
-	title = "Título"
-	subtitle = "Subtítulo"
-	composer = "Autor"
+	title = "Campanas de Belén"
+	subtitle = "Villancico popular andaluz"
+	composer = "Autor desconocido"
 	tagline = ##f
 }
 
@@ -18,18 +18,21 @@
 \markup \vspace #2 %
 
 global= {
-	\time %%
-	\tempo %%
-	\key %%
+	\time 4/4
+	\tempo "Allegro"
+	\key g \major
 }
 
 violinUno = \new Voice \relative c'' {
+	g4 g8 g g4 fis8 g |
 }
 
 violinDos = \new Voice \relative c'' {
+	d,2 d |
 }
 
 violinTres = \new Voice \relative c'' {
+	g,2 g |
 }
 
 \score {
