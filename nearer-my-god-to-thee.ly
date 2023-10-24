@@ -25,26 +25,26 @@ global= {
 
 violinUno = \new Voice \relative c'' {
 	b2 a4 g | g4.( e8) e2 | d g4( b) | a1 |
-	b2 a4 g | g4.( e8) e2 | d4 g fis a | g1 |
-	d'2 e4 d | d4.( b8 d2) | d2 e4 d | d4.( b8) a2 |
+	b2 a4 g | g4.( e8) e2 | d4( g) fis( a) | g1 |
+	d'2 e4 d | d4.( b8) d2 | d2 e4 d | d4.( b8) a2 |
 	b2 a4 g | g4.( e8) e2 | d4 g fis a | g1 |
 	b2 a4 g | g4.( e8) e2 | d g4( b) | a1 |
-	b2 a4 g | g4.( e8) e2 | d4 g fis a | g1 |
+	b2 a4 g | g4.( e8) e2 | d4( g) fis( a) | g1 |
 	\bar ".|:"
-	d'2 e4 d | d4.( b8 d2) | d2 e4 d | d4.( b8) a2 |
-	b2 a4 g | g4.( e8) e2 | d4 g fis a | g1 |
+	d'2 e4 d | d4.( b8) d2 | d2 e4 d | d4.( b8) a2 |
+	b2 a4 g | g4.( e8) e2 | d4( g) fis( a) | g1 |
 	\bar ":|."
 }
 
 violinDos = \new Voice \relative c'' {
 	r1 | r1 | r1 | r1 |
 	d,2 c4 b | e4.( c8) c2 | b2 d | b1 |
-	b2 c4 b | b4.( g8 b2) | b2 c4 b | b4.( g8) d'2 |
+	b2 c4 b | b4.( g8) b2 | b2 c4 b | b4.( g8) d'2 |
 	d2 c4 b | e4.( c8) c2 | b2 d | b1 |
-	d2 c4 b | c4.( c8 c2) | b2 b4( d) | d1 |
+	d2 c4 b | e4.( c8) c2 | b2 b4( d) | d1 |
 	d2 c4 b | e4.( c8) c2 | b2 d | b1 |
 	\bar ".|:"
-	b2 c4 b | b4.( g8 b2) | b2 c4 b | b4.( g8) d'2 |
+	b2 c4 b | b4.( g8) b2 | b2 c4 b | b4.( g8) d'2 |
 	d2 c4 b | e4.( c8) c2 | b2 d | b1 |
 	\bar ":|."
 }
@@ -53,12 +53,12 @@ violinTres = \new Voice \relative c'' {
 	r1 | r1 | r1 | r1 |
 	r1 | r1 | r1 | r1 |
 	g,1 | g | g | g2 fis' | 
-	g,1 | c | d | g, |
-	g1 | e'4.( c8 c2) | g1 | fis' |
+	g,1 | c | d2 d2 | g,1 |
+	g1 | e' | g,1 | fis' |
 	g,1 | c1 | d2 d | g,1 |
 	\bar ".|:"
 	g1 | g | g | g2 fis' | 
-	g,1 | c | d | g, |
+	g,1 | c | d2 d | g,1 |
 	\bar ":|."
 }
 
