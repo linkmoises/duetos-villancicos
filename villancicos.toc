@@ -1,5 +1,0 @@
-\babel@toc {spanish}{}\relax 
-\contentsline {chapter}{Adeste Fideles}{2}{chapter*.1}%
-\contentsline {chapter}{Noche de Paz}{3}{chapter*.1}%
-\contentsline {chapter}{Dime Niño}{5}{chapter*.1}%
-\contentsline {chapter}{Extra: Nearer, My God, to Thee}{6}{chapter*.1}%
