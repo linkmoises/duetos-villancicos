@@ -17,6 +17,7 @@ cualquier estudiante de violín.
 He intentado por todos los medios crear este libro integrando LaTeX y Lilypond;
 sin embargo, reconozco que esto es sumamente complicado de manera tal que he 
 optado por escribir cada obra de manera individual y luego compilarla como un
-solo documento PDF para distribución electrónica por medio de *pdfjam*.
+solo documento PDF para distribución electrónica por medio de *pdflatex*.
 
-    pdfjam archivo-1.pdf archivo-n.pdf --outfile resultado.pdf
+La versión final del libro estará disponible en *releases* una vez terminado y 
+del mismo modo las subsecuentes ediciones o correcciones.

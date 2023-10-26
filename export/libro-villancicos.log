@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.9.19)  25 OCT 2023 13:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.9.19)  25 OCT 2023 22:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -229,6 +229,7 @@ Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
 Package hyperref Info: Option `pdfpagelabels' set `true' on input line 4060.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4060.
 Package hyperref Info: Hyper figures OFF on input line 4177.
 Package hyperref Info: Link nesting OFF on input line 4182.
 Package hyperref Info: Hyper index ON on input line 4185.
@@ -295,13 +296,20 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip53
 )
+(/usr/share/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
+
+(/usr/share/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
+\BKM@id=\count283
+))
 (/usr/share/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty
 (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2023-02-22 L3 programming layer (loader) 
 
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count283
+\l__color_backend_stack_int=\count284
 \l__pdf_internal_box=\box53
 ))
 Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
@@ -330,32 +338,36 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@olf=\skip61
 \f@nch@O@orf=\skip62
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 21.
+(/usr/share/texmf-dist/tex/latex/titlesec/titletoc.sty
+Package: titletoc 2021/07/05 v2.14 TOC entries
+\ttl@leftsep=\dimen163
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 23.
 
 (./libro-villancicos.aux
-LaTeX Info: Redefining \. on input line 22.
-LaTeX Info: Redefining \% on input line 22.
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
 )
 \openout1 = `libro-villancicos.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -391,20 +403,20 @@ LaTeX Font Info:    ... okay on input line 27.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 27.
-LaTeX Info: Redefining \% on input line 27.
+LaTeX Info: Redefining \. on input line 29.
+LaTeX Info: Redefining \% on input line 29.
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count284
-\scratchdimen=\dimen163
+\scratchcounter=\count285
+\scratchdimen=\dimen164
 \scratchbox=\box54
-\nofMPsegments=\count285
-\nofMParguments=\count286
+\nofMPsegments=\count286
+\nofMParguments=\count287
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count287
-\MPscratchDim=\dimen164
-\MPnumerator=\count288
-\makeMPintoPDFobject=\count289
+\MPscratchCnt=\count288
+\MPscratchDim=\dimen165
+\MPnumerator=\count289
+\makeMPintoPDFobject=\count290
 \everyMPtoPDFconversion=\toks25
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -427,12 +439,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-Package hyperref Info: Link coloring ON on input line 27.
-
-(./libro-villancicos.out) (./libro-villancicos.out)
-\@outlinefile=\write3
-\openout3 = `libro-villancicos.out'.
-
+Package hyperref Info: Link coloring ON on input line 29.
 
 
 pdfTeX warning: pdflatex (file ../extend/0-portada.pdf): PDF inclusion: found P
@@ -440,7 +447,7 @@ DF version <1.7>, but at most version <1.5> allowed
 <../extend/0-portada.pdf, id=4, 614.295pt x 794.97pt>
 File: ../extend/0-portada.pdf Graphic file (type pdf)
 <use ../extend/0-portada.pdf>
-Package pdftex.def Info: ../extend/0-portada.pdf  used on input line 32.
+Package pdftex.def Info: ../extend/0-portada.pdf  used on input line 34.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -448,7 +455,7 @@ pdfTeX warning: pdflatex (file ../extend/0-portada.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
 File: ../extend/0-portada.pdf Graphic file (type pdf)
 <use ../extend/0-portada.pdf>
-Package pdftex.def Info: ../extend/0-portada.pdf  used on input line 32.
+Package pdftex.def Info: ../extend/0-portada.pdf  used on input line 34.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -461,27 +468,27 @@ DF version <1.7>, but at most version <1.5> allowed
 <../extend/0-portada.pdf, id=7, page=1, 614.295pt x 794.97pt>
 File: ../extend/0-portada.pdf Graphic file (type pdf)
 <use ../extend/0-portada.pdf, page 1>
-Package pdftex.def Info: ../extend/0-portada.pdf , page1 used on input line 32.
+Package pdftex.def Info: ../extend/0-portada.pdf , page1 used on input line 34.
 
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ../extend/0-portada.pdf Graphic file (type pdf)
 <use ../extend/0-portada.pdf, page 1>
-Package pdftex.def Info: ../extend/0-portada.pdf , page1 used on input line 32.
+Package pdftex.def Info: ../extend/0-portada.pdf , page1 used on input line 34.
 
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../extend/0-portada.pdf Graphic file (type pdf)
 <use ../extend/0-portada.pdf, page 1>
-Package pdftex.def Info: ../extend/0-portada.pdf , page1 used on input line 32.
+Package pdftex.def Info: ../extend/0-portada.pdf , page1 used on input line 34.
 
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../extend/0-portada.pdf Graphic file (type pdf)
 <use ../extend/0-portada.pdf, page 1>
-Package pdftex.def Info: ../extend/0-portada.pdf , page1 used on input line 32.
+Package pdftex.def Info: ../extend/0-portada.pdf , page1 used on input line 34.
 
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../extend/0-portada.pdf Graphic file (type pdf)
 <use ../extend/0-portada.pdf, page 1>
-Package pdftex.def Info: ../extend/0-portada.pdf , page1 used on input line 32.
+Package pdftex.def Info: ../extend/0-portada.pdf , page1 used on input line 34.
 
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [1
@@ -493,7 +500,7 @@ d PDF version <1.7>, but at most version <1.5> allowed
 <../extend/1-portadilla.pdf, id=39, 614.295pt x 794.97pt>
 File: ../extend/1-portadilla.pdf Graphic file (type pdf)
 <use ../extend/1-portadilla.pdf>
-Package pdftex.def Info: ../extend/1-portadilla.pdf  used on input line 36.
+Package pdftex.def Info: ../extend/1-portadilla.pdf  used on input line 39.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -501,7 +508,7 @@ pdfTeX warning: pdflatex (file ../extend/1-portadilla.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
 File: ../extend/1-portadilla.pdf Graphic file (type pdf)
 <use ../extend/1-portadilla.pdf>
-Package pdftex.def Info: ../extend/1-portadilla.pdf  used on input line 36.
+Package pdftex.def Info: ../extend/1-portadilla.pdf  used on input line 39.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -515,36 +522,36 @@ d PDF version <1.7>, but at most version <1.5> allowed
 File: ../extend/1-portadilla.pdf Graphic file (type pdf)
 <use ../extend/1-portadilla.pdf, page 1>
 Package pdftex.def Info: ../extend/1-portadilla.pdf , page1 used on input line 
-36.
+39.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ../extend/1-portadilla.pdf Graphic file (type pdf)
 <use ../extend/1-portadilla.pdf, page 1>
 Package pdftex.def Info: ../extend/1-portadilla.pdf , page1 used on input line 
-36.
+39.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../extend/1-portadilla.pdf Graphic file (type pdf)
 <use ../extend/1-portadilla.pdf, page 1>
 Package pdftex.def Info: ../extend/1-portadilla.pdf , page1 used on input line 
-36.
+39.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../extend/1-portadilla.pdf Graphic file (type pdf)
 <use ../extend/1-portadilla.pdf, page 1>
 Package pdftex.def Info: ../extend/1-portadilla.pdf , page1 used on input line 
-36.
+39.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../extend/1-portadilla.pdf Graphic file (type pdf)
 <use ../extend/1-portadilla.pdf, page 1>
 Package pdftex.def Info: ../extend/1-portadilla.pdf , page1 used on input line 
-36.
+39.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-[1 <../extend/1-portadilla.pdf>]
+[2 <../extend/1-portadilla.pdf>]
 
 pdfTeX warning: pdflatex (file ../extend/2-licencia.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
 <../extend/2-licencia.pdf, id=68, 614.295pt x 794.97pt>
 File: ../extend/2-licencia.pdf Graphic file (type pdf)
 <use ../extend/2-licencia.pdf>
-Package pdftex.def Info: ../extend/2-licencia.pdf  used on input line 37.
+Package pdftex.def Info: ../extend/2-licencia.pdf  used on input line 44.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -552,7 +559,7 @@ pdfTeX warning: pdflatex (file ../extend/2-licencia.pdf): PDF inclusion: found
 PDF version <1.7>, but at most version <1.5> allowed
 File: ../extend/2-licencia.pdf Graphic file (type pdf)
 <use ../extend/2-licencia.pdf>
-Package pdftex.def Info: ../extend/2-licencia.pdf  used on input line 37.
+Package pdftex.def Info: ../extend/2-licencia.pdf  used on input line 44.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -565,84 +572,81 @@ PDF version <1.7>, but at most version <1.5> allowed
 <../extend/2-licencia.pdf, id=71, page=1, 614.295pt x 794.97pt>
 File: ../extend/2-licencia.pdf Graphic file (type pdf)
 <use ../extend/2-licencia.pdf, page 1>
-Package pdftex.def Info: ../extend/2-licencia.pdf , page1 used on input line 37
+Package pdftex.def Info: ../extend/2-licencia.pdf , page1 used on input line 44
 .
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ../extend/2-licencia.pdf Graphic file (type pdf)
 <use ../extend/2-licencia.pdf, page 1>
-Package pdftex.def Info: ../extend/2-licencia.pdf , page1 used on input line 37
+Package pdftex.def Info: ../extend/2-licencia.pdf , page1 used on input line 44
 .
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../extend/2-licencia.pdf Graphic file (type pdf)
 <use ../extend/2-licencia.pdf, page 1>
-Package pdftex.def Info: ../extend/2-licencia.pdf , page1 used on input line 37
+Package pdftex.def Info: ../extend/2-licencia.pdf , page1 used on input line 44
 .
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../extend/2-licencia.pdf Graphic file (type pdf)
 <use ../extend/2-licencia.pdf, page 1>
-Package pdftex.def Info: ../extend/2-licencia.pdf , page1 used on input line 37
+Package pdftex.def Info: ../extend/2-licencia.pdf , page1 used on input line 44
 .
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../extend/2-licencia.pdf Graphic file (type pdf)
 <use ../extend/2-licencia.pdf, page 1>
-Package pdftex.def Info: ../extend/2-licencia.pdf , page1 used on input line 37
+Package pdftex.def Info: ../extend/2-licencia.pdf , page1 used on input line 44
 .
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-[2 <../extend/2-licencia.pdf{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+[3 <../extend/2-licencia.pdf{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 >]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(142.26378pt, 329.76744pt, 142.26378pt)
+* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=329.76744pt
+* \textheight=681.15898pt
+* \oddsidemargin=69.99379pt
+* \evensidemargin=69.99379pt
+* \topmargin=-45.43198pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-pdfTeX warning: pdflatex (file ../extend/4-indice.pdf): PDF inclusion: found PD
-F version <1.7>, but at most version <1.5> allowed
-<../extend/4-indice.pdf, id=95, 614.295pt x 794.97pt>
-File: ../extend/4-indice.pdf Graphic file (type pdf)
-<use ../extend/4-indice.pdf>
-Package pdftex.def Info: ../extend/4-indice.pdf  used on input line 38.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+ (./libro-villancicos.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
+\tf@toc=\write3
+\openout3 = `libro-villancicos.toc'.
+
+ [1
 
 
-pdfTeX warning: pdflatex (file ../extend/4-indice.pdf): PDF inclusion: found PD
-F version <1.7>, but at most version <1.5> allowed
-File: ../extend/4-indice.pdf Graphic file (type pdf)
-<use ../extend/4-indice.pdf>
-Package pdftex.def Info: ../extend/4-indice.pdf  used on input line 38.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-
-
-pdfTeX warning: pdflatex (file ../extend/4-indice.pdf): PDF inclusion: found PD
-F version <1.7>, but at most version <1.5> allowed
-
-
-pdfTeX warning: pdflatex (file ../extend/4-indice.pdf): PDF inclusion: found PD
-F version <1.7>, but at most version <1.5> allowed
-<../extend/4-indice.pdf, id=98, page=1, 614.295pt x 794.97pt>
-File: ../extend/4-indice.pdf Graphic file (type pdf)
-<use ../extend/4-indice.pdf, page 1>
-Package pdftex.def Info: ../extend/4-indice.pdf , page1 used on input line 38.
-(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: ../extend/4-indice.pdf Graphic file (type pdf)
-<use ../extend/4-indice.pdf, page 1>
-Package pdftex.def Info: ../extend/4-indice.pdf , page1 used on input line 38.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: ../extend/4-indice.pdf Graphic file (type pdf)
-<use ../extend/4-indice.pdf, page 1>
-Package pdftex.def Info: ../extend/4-indice.pdf , page1 used on input line 38.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: ../extend/4-indice.pdf Graphic file (type pdf)
-<use ../extend/4-indice.pdf, page 1>
-Package pdftex.def Info: ../extend/4-indice.pdf , page1 used on input line 38.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: ../extend/4-indice.pdf Graphic file (type pdf)
-<use ../extend/4-indice.pdf, page 1>
-Package pdftex.def Info: ../extend/4-indice.pdf , page1 used on input line 38.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-[3 <../extend/4-indice.pdf>]
+]
 
 pdfTeX warning: pdflatex (file ../extend/blank.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
-<../extend/blank.pdf, id=114, 614.295pt x 794.97pt>
+<../extend/blank.pdf, id=136, 614.295pt x 794.97pt>
 File: ../extend/blank.pdf Graphic file (type pdf)
 <use ../extend/blank.pdf>
-Package pdftex.def Info: ../extend/blank.pdf  used on input line 39.
+Package pdftex.def Info: ../extend/blank.pdf  used on input line 57.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -650,7 +654,7 @@ pdfTeX warning: pdflatex (file ../extend/blank.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
 File: ../extend/blank.pdf Graphic file (type pdf)
 <use ../extend/blank.pdf>
-Package pdftex.def Info: ../extend/blank.pdf  used on input line 39.
+Package pdftex.def Info: ../extend/blank.pdf  used on input line 57.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -660,35 +664,37 @@ ersion <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ../extend/blank.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
-<../extend/blank.pdf, id=117, page=1, 614.295pt x 794.97pt>
+<../extend/blank.pdf, id=139, page=1, 614.295pt x 794.97pt>
 File: ../extend/blank.pdf Graphic file (type pdf)
 <use ../extend/blank.pdf, page 1>
-Package pdftex.def Info: ../extend/blank.pdf , page1 used on input line 39.
+Package pdftex.def Info: ../extend/blank.pdf , page1 used on input line 57.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ../extend/blank.pdf Graphic file (type pdf)
 <use ../extend/blank.pdf, page 1>
-Package pdftex.def Info: ../extend/blank.pdf , page1 used on input line 39.
+Package pdftex.def Info: ../extend/blank.pdf , page1 used on input line 57.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../extend/blank.pdf Graphic file (type pdf)
 <use ../extend/blank.pdf, page 1>
-Package pdftex.def Info: ../extend/blank.pdf , page1 used on input line 39.
+Package pdftex.def Info: ../extend/blank.pdf , page1 used on input line 57.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../extend/blank.pdf Graphic file (type pdf)
 <use ../extend/blank.pdf, page 1>
-Package pdftex.def Info: ../extend/blank.pdf , page1 used on input line 39.
+Package pdftex.def Info: ../extend/blank.pdf , page1 used on input line 57.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../extend/blank.pdf Graphic file (type pdf)
 <use ../extend/blank.pdf, page 1>
-Package pdftex.def Info: ../extend/blank.pdf , page1 used on input line 39.
+Package pdftex.def Info: ../extend/blank.pdf , page1 used on input line 57.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-[4 <../extend/blank.pdf>]
+[2
+
+ <../extend/blank.pdf>]
 
 pdfTeX warning: pdflatex (file ../extend/3-prefacio.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<../extend/3-prefacio.pdf, id=124, 614.295pt x 794.97pt>
+<../extend/3-prefacio.pdf, id=146, 614.295pt x 794.97pt>
 File: ../extend/3-prefacio.pdf Graphic file (type pdf)
 <use ../extend/3-prefacio.pdf>
-Package pdftex.def Info: ../extend/3-prefacio.pdf  used on input line 40.
+Package pdftex.def Info: ../extend/3-prefacio.pdf  used on input line 58.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -696,7 +702,7 @@ pdfTeX warning: pdflatex (file ../extend/3-prefacio.pdf): PDF inclusion: found
 PDF version <1.7>, but at most version <1.5> allowed
 File: ../extend/3-prefacio.pdf Graphic file (type pdf)
 <use ../extend/3-prefacio.pdf>
-Package pdftex.def Info: ../extend/3-prefacio.pdf  used on input line 40.
+Package pdftex.def Info: ../extend/3-prefacio.pdf  used on input line 58.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -706,36 +712,36 @@ PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ../extend/3-prefacio.pdf): PDF inclusion: found 
 PDF version <1.7>, but at most version <1.5> allowed
-<../extend/3-prefacio.pdf, id=127, page=1, 614.295pt x 794.97pt>
+<../extend/3-prefacio.pdf, id=149, page=1, 614.295pt x 794.97pt>
 File: ../extend/3-prefacio.pdf Graphic file (type pdf)
 <use ../extend/3-prefacio.pdf, page 1>
-Package pdftex.def Info: ../extend/3-prefacio.pdf , page1 used on input line 40
+Package pdftex.def Info: ../extend/3-prefacio.pdf , page1 used on input line 58
 .
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ../extend/3-prefacio.pdf Graphic file (type pdf)
 <use ../extend/3-prefacio.pdf, page 1>
-Package pdftex.def Info: ../extend/3-prefacio.pdf , page1 used on input line 40
+Package pdftex.def Info: ../extend/3-prefacio.pdf , page1 used on input line 58
 .
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../extend/3-prefacio.pdf Graphic file (type pdf)
 <use ../extend/3-prefacio.pdf, page 1>
-Package pdftex.def Info: ../extend/3-prefacio.pdf , page1 used on input line 40
+Package pdftex.def Info: ../extend/3-prefacio.pdf , page1 used on input line 58
 .
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../extend/3-prefacio.pdf Graphic file (type pdf)
 <use ../extend/3-prefacio.pdf, page 1>
-Package pdftex.def Info: ../extend/3-prefacio.pdf , page1 used on input line 40
+Package pdftex.def Info: ../extend/3-prefacio.pdf , page1 used on input line 58
 .
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../extend/3-prefacio.pdf Graphic file (type pdf)
 <use ../extend/3-prefacio.pdf, page 1>
-Package pdftex.def Info: ../extend/3-prefacio.pdf , page1 used on input line 40
+Package pdftex.def Info: ../extend/3-prefacio.pdf , page1 used on input line 58
 .
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-[5 <../extend/3-prefacio.pdf>]
+[3 <../extend/3-prefacio.pdf>]
 File: ../extend/blank.pdf Graphic file (type pdf)
 <use ../extend/blank.pdf>
-Package pdftex.def Info: ../extend/blank.pdf  used on input line 41.
+Package pdftex.def Info: ../extend/blank.pdf  used on input line 59.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -743,7 +749,7 @@ pdfTeX warning: pdflatex (file ../extend/blank.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
 File: ../extend/blank.pdf Graphic file (type pdf)
 <use ../extend/blank.pdf>
-Package pdftex.def Info: ../extend/blank.pdf  used on input line 41.
+Package pdftex.def Info: ../extend/blank.pdf  used on input line 59.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -751,134 +757,152 @@ pdfTeX warning: pdflatex (file ../extend/blank.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
 File: ../extend/blank.pdf Graphic file (type pdf)
 <use ../extend/blank.pdf, page 1>
-Package pdftex.def Info: ../extend/blank.pdf , page1 used on input line 41.
+Package pdftex.def Info: ../extend/blank.pdf , page1 used on input line 59.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ../extend/blank.pdf Graphic file (type pdf)
 <use ../extend/blank.pdf, page 1>
-Package pdftex.def Info: ../extend/blank.pdf , page1 used on input line 41.
+Package pdftex.def Info: ../extend/blank.pdf , page1 used on input line 59.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../extend/blank.pdf Graphic file (type pdf)
 <use ../extend/blank.pdf, page 1>
-Package pdftex.def Info: ../extend/blank.pdf , page1 used on input line 41.
+Package pdftex.def Info: ../extend/blank.pdf , page1 used on input line 59.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../extend/blank.pdf Graphic file (type pdf)
 <use ../extend/blank.pdf, page 1>
-Package pdftex.def Info: ../extend/blank.pdf , page1 used on input line 41.
+Package pdftex.def Info: ../extend/blank.pdf , page1 used on input line 59.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../extend/blank.pdf Graphic file (type pdf)
 <use ../extend/blank.pdf, page 1>
-Package pdftex.def Info: ../extend/blank.pdf , page1 used on input line 41.
+Package pdftex.def Info: ../extend/blank.pdf , page1 used on input line 59.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-[6]
-<../villancicos-compilados.pdf, id=150, 614.295pt x 794.97pt>
+[4]
+<../villancicos-compilados.pdf, id=172, 614.295pt x 794.97pt>
 File: ../villancicos-compilados.pdf Graphic file (type pdf)
 <use ../villancicos-compilados.pdf>
-Package pdftex.def Info: ../villancicos-compilados.pdf  used on input line 45.
+Package pdftex.def Info: ../villancicos-compilados.pdf  used on input line 80.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ../villancicos-compilados.pdf Graphic file (type pdf)
 <use ../villancicos-compilados.pdf>
-Package pdftex.def Info: ../villancicos-compilados.pdf  used on input line 45.
+Package pdftex.def Info: ../villancicos-compilados.pdf  used on input line 80.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<../villancicos-compilados.pdf, id=153, page=1, 614.295pt x 794.97pt>
+<../villancicos-compilados.pdf, id=175, page=1, 614.295pt x 794.97pt>
 File: ../villancicos-compilados.pdf Graphic file (type pdf)
 <use ../villancicos-compilados.pdf, page 1>
 Package pdftex.def Info: ../villancicos-compilados.pdf , page1 used on input li
-ne 45.
+ne 80.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ../villancicos-compilados.pdf Graphic file (type pdf)
 <use ../villancicos-compilados.pdf, page 1>
 Package pdftex.def Info: ../villancicos-compilados.pdf , page1 used on input li
-ne 45.
+ne 80.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../villancicos-compilados.pdf Graphic file (type pdf)
 <use ../villancicos-compilados.pdf, page 1>
 Package pdftex.def Info: ../villancicos-compilados.pdf , page1 used on input li
-ne 45.
+ne 80.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../villancicos-compilados.pdf Graphic file (type pdf)
 <use ../villancicos-compilados.pdf, page 1>
 Package pdftex.def Info: ../villancicos-compilados.pdf , page1 used on input li
-ne 45.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: ../villancicos-compilados.pdf Graphic file (type pdf)
-<use ../villancicos-compilados.pdf, page 1>
-Package pdftex.def Info: ../villancicos-compilados.pdf , page1 used on input li
-ne 45.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [1 <../villancicos-compilados.pdf>]
-<../villancicos-compilados.pdf, id=178, page=2, 614.295pt x 794.97pt>
-File: ../villancicos-compilados.pdf Graphic file (type pdf)
-<use ../villancicos-compilados.pdf, page 2>
-Package pdftex.def Info: ../villancicos-compilados.pdf , page2 used on input li
-ne 45.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: ../villancicos-compilados.pdf Graphic file (type pdf)
-<use ../villancicos-compilados.pdf, page 2>
-Package pdftex.def Info: ../villancicos-compilados.pdf , page2 used on input li
-ne 45.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: ../villancicos-compilados.pdf Graphic file (type pdf)
-<use ../villancicos-compilados.pdf, page 2>
-Package pdftex.def Info: ../villancicos-compilados.pdf , page2 used on input li
-ne 45.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
- [2 <../villancicos-compilados.pdf>]
-<../villancicos-compilados.pdf, id=196, page=3, 614.295pt x 794.97pt>
-File: ../villancicos-compilados.pdf Graphic file (type pdf)
-<use ../villancicos-compilados.pdf, page 3>
-Package pdftex.def Info: ../villancicos-compilados.pdf , page3 used on input li
-ne 45.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: ../villancicos-compilados.pdf Graphic file (type pdf)
-<use ../villancicos-compilados.pdf, page 3>
-Package pdftex.def Info: ../villancicos-compilados.pdf , page3 used on input li
-ne 45.
-(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: ../villancicos-compilados.pdf Graphic file (type pdf)
-<use ../villancicos-compilados.pdf, page 3>
-Package pdftex.def Info: ../villancicos-compilados.pdf , page3 used on input li
-ne 45.
+ne 80.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
+Cap\'{\i }tulo 1.
+File: ../villancicos-compilados.pdf Graphic file (type pdf)
+<use ../villancicos-compilados.pdf, page 1>
+Package pdftex.def Info: ../villancicos-compilados.pdf , page1 used on input li
+ne 80.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[1 <../villancicos-compilados.pdf>]
+<../villancicos-compilados.pdf, id=201, page=2, 614.295pt x 794.97pt>
+File: ../villancicos-compilados.pdf Graphic file (type pdf)
+<use ../villancicos-compilados.pdf, page 2>
+Package pdftex.def Info: ../villancicos-compilados.pdf , page2 used on input li
+ne 80.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../villancicos-compilados.pdf Graphic file (type pdf)
+<use ../villancicos-compilados.pdf, page 2>
+Package pdftex.def Info: ../villancicos-compilados.pdf , page2 used on input li
+ne 80.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Cap\'{\i }tulo 2.
+File: ../villancicos-compilados.pdf Graphic file (type pdf)
+<use ../villancicos-compilados.pdf, page 2>
+Package pdftex.def Info: ../villancicos-compilados.pdf , page2 used on input li
+ne 80.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+[2 <../villancicos-compilados.pdf>]
+<../villancicos-compilados.pdf, id=218, page=3, 614.295pt x 794.97pt>
+File: ../villancicos-compilados.pdf Graphic file (type pdf)
+<use ../villancicos-compilados.pdf, page 3>
+Package pdftex.def Info: ../villancicos-compilados.pdf , page3 used on input li
+ne 80.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: ../villancicos-compilados.pdf Graphic file (type pdf)
+<use ../villancicos-compilados.pdf, page 3>
+Package pdftex.def Info: ../villancicos-compilados.pdf , page3 used on input li
+ne 80.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+Cap\'{\i }tulo 3.
+Cap\'{\i }tulo 4.
+Cap\'{\i }tulo 5.
+Cap\'{\i }tulo 6.
+Cap\'{\i }tulo 7.
+Cap\'{\i }tulo 8.
+Cap\'{\i }tulo 9.
+Cap\'{\i }tulo 10.
+Cap\'{\i }tulo 11.
+Cap\'{\i }tulo 12.
+Cap\'{\i }tulo 13.
+Cap\'{\i }tulo 14.
+Cap\'{\i }tulo 15.
+Cap\'{\i }tulo 16.
+File: ../villancicos-compilados.pdf Graphic file (type pdf)
+<use ../villancicos-compilados.pdf, page 3>
+Package pdftex.def Info: ../villancicos-compilados.pdf , page3 used on input li
+ne 80.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [3 <../villancicos-compilados.pdf>]
-<../villancicos-compilados.pdf, id=219, page=4, 614.295pt x 794.97pt>
+<../villancicos-compilados.pdf, id=241, page=4, 614.295pt x 794.97pt>
 File: ../villancicos-compilados.pdf Graphic file (type pdf)
 <use ../villancicos-compilados.pdf, page 4>
 Package pdftex.def Info: ../villancicos-compilados.pdf , page4 used on input li
-ne 45.
+ne 80.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../villancicos-compilados.pdf Graphic file (type pdf)
 <use ../villancicos-compilados.pdf, page 4>
 Package pdftex.def Info: ../villancicos-compilados.pdf , page4 used on input li
-ne 45.
+ne 80.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../villancicos-compilados.pdf Graphic file (type pdf)
 <use ../villancicos-compilados.pdf, page 4>
 Package pdftex.def Info: ../villancicos-compilados.pdf , page4 used on input li
-ne 45.
+ne 80.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
  [4 <../villancicos-compilados.pdf>]
-<../villancicos-compilados.pdf, id=225, page=5, 614.295pt x 794.97pt>
+<../villancicos-compilados.pdf, id=247, page=5, 614.295pt x 794.97pt>
 File: ../villancicos-compilados.pdf Graphic file (type pdf)
 <use ../villancicos-compilados.pdf, page 5>
 Package pdftex.def Info: ../villancicos-compilados.pdf , page5 used on input li
-ne 45.
+ne 80.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../villancicos-compilados.pdf Graphic file (type pdf)
 <use ../villancicos-compilados.pdf, page 5>
 Package pdftex.def Info: ../villancicos-compilados.pdf , page5 used on input li
-ne 45.
+ne 80.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../villancicos-compilados.pdf Graphic file (type pdf)
 <use ../villancicos-compilados.pdf, page 5>
 Package pdftex.def Info: ../villancicos-compilados.pdf , page5 used on input li
-ne 45.
+ne 80.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 
 [5 <../villancicos-compilados.pdf>]
 File: ../extend/blank.pdf Graphic file (type pdf)
 <use ../extend/blank.pdf>
-Package pdftex.def Info: ../extend/blank.pdf  used on input line 47.
+Package pdftex.def Info: ../extend/blank.pdf  used on input line 82.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -886,7 +910,7 @@ pdfTeX warning: pdflatex (file ../extend/blank.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
 File: ../extend/blank.pdf Graphic file (type pdf)
 <use ../extend/blank.pdf>
-Package pdftex.def Info: ../extend/blank.pdf  used on input line 47.
+Package pdftex.def Info: ../extend/blank.pdf  used on input line 82.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -894,85 +918,83 @@ pdfTeX warning: pdflatex (file ../extend/blank.pdf): PDF inclusion: found PDF v
 ersion <1.7>, but at most version <1.5> allowed
 File: ../extend/blank.pdf Graphic file (type pdf)
 <use ../extend/blank.pdf, page 1>
-Package pdftex.def Info: ../extend/blank.pdf , page1 used on input line 47.
+Package pdftex.def Info: ../extend/blank.pdf , page1 used on input line 82.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ../extend/blank.pdf Graphic file (type pdf)
 <use ../extend/blank.pdf, page 1>
-Package pdftex.def Info: ../extend/blank.pdf , page1 used on input line 47.
+Package pdftex.def Info: ../extend/blank.pdf , page1 used on input line 82.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../extend/blank.pdf Graphic file (type pdf)
 <use ../extend/blank.pdf, page 1>
-Package pdftex.def Info: ../extend/blank.pdf , page1 used on input line 47.
+Package pdftex.def Info: ../extend/blank.pdf , page1 used on input line 82.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../extend/blank.pdf Graphic file (type pdf)
 <use ../extend/blank.pdf, page 1>
-Package pdftex.def Info: ../extend/blank.pdf , page1 used on input line 47.
+Package pdftex.def Info: ../extend/blank.pdf , page1 used on input line 82.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../extend/blank.pdf Graphic file (type pdf)
 <use ../extend/blank.pdf, page 1>
-Package pdftex.def Info: ../extend/blank.pdf , page1 used on input line 47.
+Package pdftex.def Info: ../extend/blank.pdf , page1 used on input line 82.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [6]
 
-pdfTeX warning: pdflatex (file ../extend/5-contraportadilla.pdf): PDF inclusion
-: found PDF version <1.7>, but at most version <1.5> allowed
-<../extend/5-contraportadilla.pdf, id=250, 614.295pt x 794.97pt>
-File: ../extend/5-contraportadilla.pdf Graphic file (type pdf)
-<use ../extend/5-contraportadilla.pdf>
-Package pdftex.def Info: ../extend/5-contraportadilla.pdf  used on input line 4
-8.
+pdfTeX warning: pdflatex (file ../extend/5-colofon.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<../extend/5-colofon.pdf, id=272, 614.295pt x 794.97pt>
+File: ../extend/5-colofon.pdf Graphic file (type pdf)
+<use ../extend/5-colofon.pdf>
+Package pdftex.def Info: ../extend/5-colofon.pdf  used on input line 87.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
-pdfTeX warning: pdflatex (file ../extend/5-contraportadilla.pdf): PDF inclusion
-: found PDF version <1.7>, but at most version <1.5> allowed
-File: ../extend/5-contraportadilla.pdf Graphic file (type pdf)
-<use ../extend/5-contraportadilla.pdf>
-Package pdftex.def Info: ../extend/5-contraportadilla.pdf  used on input line 4
-8.
+pdfTeX warning: pdflatex (file ../extend/5-colofon.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+File: ../extend/5-colofon.pdf Graphic file (type pdf)
+<use ../extend/5-colofon.pdf>
+Package pdftex.def Info: ../extend/5-colofon.pdf  used on input line 87.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
-pdfTeX warning: pdflatex (file ../extend/5-contraportadilla.pdf): PDF inclusion
-: found PDF version <1.7>, but at most version <1.5> allowed
+pdfTeX warning: pdflatex (file ../extend/5-colofon.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
 
 
-pdfTeX warning: pdflatex (file ../extend/5-contraportadilla.pdf): PDF inclusion
-: found PDF version <1.7>, but at most version <1.5> allowed
-<../extend/5-contraportadilla.pdf, id=253, page=1, 614.295pt x 794.97pt>
-File: ../extend/5-contraportadilla.pdf Graphic file (type pdf)
-<use ../extend/5-contraportadilla.pdf, page 1>
-Package pdftex.def Info: ../extend/5-contraportadilla.pdf , page1 used on input
- line 48.
+pdfTeX warning: pdflatex (file ../extend/5-colofon.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<../extend/5-colofon.pdf, id=275, page=1, 614.295pt x 794.97pt>
+File: ../extend/5-colofon.pdf Graphic file (type pdf)
+<use ../extend/5-colofon.pdf, page 1>
+Package pdftex.def Info: ../extend/5-colofon.pdf , page1 used on input line 87.
+
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-File: ../extend/5-contraportadilla.pdf Graphic file (type pdf)
-<use ../extend/5-contraportadilla.pdf, page 1>
-Package pdftex.def Info: ../extend/5-contraportadilla.pdf , page1 used on input
- line 48.
+File: ../extend/5-colofon.pdf Graphic file (type pdf)
+<use ../extend/5-colofon.pdf, page 1>
+Package pdftex.def Info: ../extend/5-colofon.pdf , page1 used on input line 87.
+
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: ../extend/5-contraportadilla.pdf Graphic file (type pdf)
-<use ../extend/5-contraportadilla.pdf, page 1>
-Package pdftex.def Info: ../extend/5-contraportadilla.pdf , page1 used on input
- line 48.
+File: ../extend/5-colofon.pdf Graphic file (type pdf)
+<use ../extend/5-colofon.pdf, page 1>
+Package pdftex.def Info: ../extend/5-colofon.pdf , page1 used on input line 87.
+
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: ../extend/5-contraportadilla.pdf Graphic file (type pdf)
-<use ../extend/5-contraportadilla.pdf, page 1>
-Package pdftex.def Info: ../extend/5-contraportadilla.pdf , page1 used on input
- line 48.
+File: ../extend/5-colofon.pdf Graphic file (type pdf)
+<use ../extend/5-colofon.pdf, page 1>
+Package pdftex.def Info: ../extend/5-colofon.pdf , page1 used on input line 87.
+
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-File: ../extend/5-contraportadilla.pdf Graphic file (type pdf)
-<use ../extend/5-contraportadilla.pdf, page 1>
-Package pdftex.def Info: ../extend/5-contraportadilla.pdf , page1 used on input
- line 48.
+File: ../extend/5-colofon.pdf Graphic file (type pdf)
+<use ../extend/5-colofon.pdf, page 1>
+Package pdftex.def Info: ../extend/5-colofon.pdf , page1 used on input line 87.
+
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
-[7 <../extend/5-contraportadilla.pdf>]
+[7 <../extend/5-colofon.pdf>]
 
 pdfTeX warning: pdflatex (file ../extend/contraportada.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<../extend/contraportada.pdf, id=264, 614.295pt x 794.97pt>
+<../extend/contraportada.pdf, id=286, 614.295pt x 794.97pt>
 File: ../extend/contraportada.pdf Graphic file (type pdf)
 <use ../extend/contraportada.pdf>
-Package pdftex.def Info: ../extend/contraportada.pdf  used on input line 53.
+Package pdftex.def Info: ../extend/contraportada.pdf  used on input line 92.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -980,7 +1002,7 @@ pdfTeX warning: pdflatex (file ../extend/contraportada.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
 File: ../extend/contraportada.pdf Graphic file (type pdf)
 <use ../extend/contraportada.pdf>
-Package pdftex.def Info: ../extend/contraportada.pdf  used on input line 53.
+Package pdftex.def Info: ../extend/contraportada.pdf  used on input line 92.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
@@ -990,52 +1012,52 @@ nd PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex (file ../extend/contraportada.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<../extend/contraportada.pdf, id=267, page=1, 614.295pt x 794.97pt>
+<../extend/contraportada.pdf, id=289, page=1, 614.295pt x 794.97pt>
 File: ../extend/contraportada.pdf Graphic file (type pdf)
 <use ../extend/contraportada.pdf, page 1>
 Package pdftex.def Info: ../extend/contraportada.pdf , page1 used on input line
- 53.
+ 92.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: ../extend/contraportada.pdf Graphic file (type pdf)
 <use ../extend/contraportada.pdf, page 1>
 Package pdftex.def Info: ../extend/contraportada.pdf , page1 used on input line
- 53.
+ 92.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../extend/contraportada.pdf Graphic file (type pdf)
 <use ../extend/contraportada.pdf, page 1>
 Package pdftex.def Info: ../extend/contraportada.pdf , page1 used on input line
- 53.
+ 92.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../extend/contraportada.pdf Graphic file (type pdf)
 <use ../extend/contraportada.pdf, page 1>
 Package pdftex.def Info: ../extend/contraportada.pdf , page1 used on input line
- 53.
+ 92.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 File: ../extend/contraportada.pdf Graphic file (type pdf)
 <use ../extend/contraportada.pdf, page 1>
 Package pdftex.def Info: ../extend/contraportada.pdf , page1 used on input line
- 53.
+ 92.
 (pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
 [8 <../extend/contraportada.pdf>] (./libro-villancicos.aux
-LaTeX Info: Redefining \. on input line 22.
-LaTeX Info: Redefining \% on input line 22.
-)
-Package rerunfilecheck Info: File `libro-villancicos.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
- ) 
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+) ) 
 Here is how much of TeX's memory you used:
- 14779 strings out of 477923
- 256998 string characters out of 5838288
- 1851388 words of memory out of 5000000
- 34802 multiletter control sequences out of 15000+600000
- 512287 words of font info for 32 fonts, out of 8000000 for 9000
+ 15243 strings out of 477923
+ 263631 string characters out of 5838288
+ 1855388 words of memory out of 5000000
+ 35237 multiletter control sequences out of 15000+600000
+ 513502 words of font info for 36 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 75i,17n,76p,310b,578s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on libro-villancicos.pdf (15 pages, 29697254 bytes).
+ 75i,17n,76p,463b,617s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb>
+Output written on libro-villancicos.pdf (15 pages, 29724326 bytes).
 PDF statistics:
- 293 PDF objects out of 1000 (max. 8388607)
- 171 compressed objects within 2 object streams
- 16 named destinations out of 1000 (max. 500000)
- 221 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 383 PDF objects out of 1000 (max. 8388607)
+ 262 compressed objects within 3 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 337 words of extra memory for PDF output out of 10000 (max. 10000000)
 

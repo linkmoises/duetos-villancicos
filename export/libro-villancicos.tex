@@ -5,9 +5,11 @@
 \usepackage[utf8]{inputenc}
 
 \usepackage{pdfpages}
-\usepackage[pdftex,pdfpagelabels=true]{hyperref} % Para enlaces y metadatos
+\usepackage[pdftex,pdfpagelabels=true,bookmarks=true]{hyperref} % Para enlaces y metadatos
+\usepackage{bookmark}
 \usepackage{fontawesome5}
 \usepackage{fancyhdr}
+\usepackage{titletoc}
 
 \hypersetup{
     colorlinks=true,
@@ -16,8 +18,8 @@
     %%citecolor=green,
     pdfauthor={Moisés Serrano Samudio},
     pdftitle={Villancicos Populares},
-    pdfsubject={partituras},
-    pdfkeywords={violín,trío,villancicos}
+    pdfsubject={Partituras},
+    pdfkeywords={violín, trío, villancicos}
 }
 
 \title{Villancicos Populares}
@@ -31,21 +33,58 @@
 \renewcommand{\thepage}{\CoverName}
 \includepdf[pages=-]{../extend/0-portada.pdf}
 
+\renewcommand{\CoverName}{Portadilla}%
+\pagestyle{empty}%
+\renewcommand{\thepage}{\CoverName}
+\includepdf[pages=-]{../extend/1-portadilla.pdf}
+
+\renewcommand{\CoverName}{Licencia}%
+\pagestyle{empty}%
+\renewcommand{\thepage}{\CoverName}
+\includepdf[pages=-]{../extend/2-licencia.pdf}
+
 \pagenumbering{roman}
 
-\includepdf[pages=-]{../extend/1-portadilla.pdf}
-\includepdf[pages=-]{../extend/2-licencia.pdf}
-\includepdf[pages=-]{../extend/4-indice.pdf}
+%% Tabla de contenidos
+\renewcommand{\contentsname}{Índice de Partituras} %% Índice de partituras
+% Establecer los márgenes de la página de índice
+\newgeometry{left=5cm, right=5cm, top=2cm, bottom=2cm}
+\pdfbookmark{\contentsname}{Partituras}
+\tableofcontents
+\restoregeometry 
+% Volver a ajustar los márgenes después de índice a los originales
+
 \includepdf[pages=-]{../extend/blank.pdf}
 \includepdf[pages=-]{../extend/3-prefacio.pdf}
 \includepdf[pages=-]{../extend/blank.pdf}
 
 \pagenumbering{arabic}
 
-\includepdf[pages=-]{../villancicos-compilados.pdf}
+\includepdf[pages=-,addtotoc={
+    1,chapter,1,Adeste Fideles,v1,
+    2,chapter,1,Noche de Paz,v2,
+    3,chapter,1,Dime Niño,v3,
+    3,chapter,1,La marimorena,v4,
+    3,chapter,1,Pero mira como beben,v5,
+    3,chapter,1,Ay del chiquirritin,v6,
+    3,chapter,1,Campanas de Belén,v7,
+    3,chapter,1,{Fum, fum, fum},v8,
+    3,chapter,1,{Alegría, alegría},v9,
+    3,chapter,1,El niño del tambor,v10,
+    3,chapter,1,{¡Dale, dale, dale!},v11,
+    3,chapter,1,Deck the hall,v12,
+    3,chapter,1,Jingle bells,v13,
+    3,chapter,1,Oh! Christmas tree,v14,
+    3,chapter,1,We wish you a Merry Christmas,v15,
+    3,chapter,1,{Extra: Nearer, My God, to Thee},extra
+    }]{../villancicos-compilados.pdf}
 
 \includepdf[pages=-]{../extend/blank.pdf}
-\includepdf[pages=-]{../extend/5-contraportadilla.pdf}
+
+\renewcommand{\CoverName}{Colofón}%
+\pagestyle{empty}%
+\renewcommand{\thepage}{\CoverName}
+\includepdf[pages=-]{../extend/5-colofon.pdf}
 
 \renewcommand{\CoverName}{Contraportada}%
 \pagestyle{empty}%
