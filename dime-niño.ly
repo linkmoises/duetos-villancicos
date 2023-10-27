@@ -126,5 +126,5 @@ violinTres = \new Voice \relative c'' {
 		<< \global \violinTres >>
 	>>
 \layout { }
-%%\midi { }
+\midi { }
 }
