@@ -1,5 +1,6 @@
-*.midi
+## Directorios
 base/
+extend/
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
@@ -13,3 +14,8 @@ base/
 *.cb
 *.cb2
 .*.lb
+## extensiones filtradas
+*.midi
+*.pdf
+*.xcf
+*.odt
