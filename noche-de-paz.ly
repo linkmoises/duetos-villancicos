@@ -25,10 +25,10 @@ global= {
 
 violinUno = \new Voice \relative c'' {
 	a4. b8 a4 | fis2. | a4. b8 a4 | fis2. |
-	e'2 e4 | cis2. | d2 d4 | a2. |
+	e'2 e4 | cis2. \break | d2 d4 | a2. |
+	b2 b4 | d4. cis8 b4 | a4. b8 a4 | fis2. \break |
 	b2 b4 | d4. cis8 b4 | a4. b8 a4 | fis2. |
-	b2 b4 | d4. cis8 b4 | a4. b8 a4 | fis2. |
-	e'2 e4 | g4. e8 cis4 | d2. | fis2. |
+	e'2 e4 | g4. e8 cis4 \break | d2. | fis2. |
 	d4. a8 fis4 | a4. g8 e4 | d2.( | d4) r2 |
 	\bar ":|."
 }

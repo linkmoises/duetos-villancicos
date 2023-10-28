@@ -27,25 +27,25 @@ violinUno = \new Voice \relative c'' {
 	\partial 2 b4\downbow c |
 	\repeat volta 2 {
 	  d \tuplet 3/2 { e8( d c } d4~ | d) g a | 
-	  b \tuplet 3/2 { a8( b a } g4~ | g) fis g | 
+	  b \tuplet 3/2 { a8( b a } g4~ | g) fis g \break | 
 	  a \tuplet 3/2 { fis8( g fis } d4~ | d) c d |
 	  e \tuplet 3/2 { e8( fis e } d4~ | d2.) |
-	  e4. e8 e4 | fis fis fis | 
+	  e4. e8 e4 | fis fis fis \break | 
 	  g \tuplet 3/2 { e8( fis e } d4~ | d) d d |
 	  e \tuplet 3/2 { c8( d c } a4~ | a) c c |
 	}
 	\alternative {
-	  { d \tuplet 3/2 { c8( d c } b4~ | b) b c | }
+	  { d \tuplet 3/2 { c8( d c } b4~ | b) b c \break | }
 	  { d \tuplet 3/2 { c8( d c } b4~ | b2) d4 | }
 	}
-	  g4 g8 g g g | g4 fis g | a g8 a g fis | e4 d e |
+	  g4 g8 g g g | g4 fis g | a g8 a g fis | e4 d e \break |
 	  fis e8 fis d4 | c2 d4 | e d8 e d c | c4 b d |
 	\bar ".|:"
-	  g4 b, b | b2 d4 | g2 a4 | fis a, b | c2 g'4 |
-	  e e fis | d2 e4 | c2 d4 | b2 d4 | 
+	  g4 b, b \break | b2 d4 | g2 a4 | fis a, b | c2 g'4 |
+	  e e fis \break | d2 e4 | c2 d4 | b2 d4 | 
 	\bar ":|.|:"
 	\repeat volta 2 {
-	  g4 g8 g g g | g4 fis g | a g8 a g fis | e4 d e |
+	  g4 g8 g g g | g4 fis g | a g8 a g fis | e4 d e \break |
 	  fis e8 fis e d | c2 d4 | e d8 e d c |
 	}
 	\alternative {

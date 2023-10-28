@@ -29,7 +29,7 @@ violinUno = \new Voice \relative c'' {
 	d'2 e4 d | d4.( b8) d2 | d2 e4 d | d4.( b8) a2 |
 	b2 a4 g | g4.( e8) e2 | d4 g fis a | g1 |
 	b2 a4 g | g4.( e8) e2 | d g4( b) | a1 |
-	b2 a4 g | g4.( e8) e2 | d4( g) fis( a) | g1 |
+	b2 a4 g | g4.( e8) e2 | d4( g) fis( a) \break | g1 |
 	\bar ".|:"
 	d'2 e4 d | d4.( b8) d2 | d2 e4 d | d4.( b8) a2 |
 	b2 a4 g | g4.( e8) e2 | d4( g) fis( a) | g1 |
