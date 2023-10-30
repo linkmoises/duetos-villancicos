@@ -35,7 +35,7 @@ las terminadas como las que están en proceso de edición:
 - [x] Fum, fum, fum
 - [x] Pero mira como beben
 - [x] ¡Ay del chiquirritin!
-- [ ] La marimorena
+- [x] La marimorena
 - [ ] Alegrı́a, alegrı́a
 - [ ] El niño del tambor
 - [ ] ¡Dale, dale, dale!
@@ -59,6 +59,7 @@ En primera instancia compilo todos los villancicos en un solo documento:
 Y luego en el directorio export genero el documento final
 
 > cd export
+>
 > pdflatex libro-villancicos.tex
 
 La versión final del libro estará disponible en *releases* una vez terminado y 
