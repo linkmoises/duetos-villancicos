@@ -37,6 +37,7 @@ las terminadas como las que están en proceso de edición:
 - [x] ¡Ay del chiquirritin!
 - [x] La marimorena
 - [x] Alegrı́a, alegrı́a
+- [x] Rin, rin
 - [ ] El niño del tambor
 - [ ] ¡Dale, dale, dale!
 - [ ] Deck the hall
