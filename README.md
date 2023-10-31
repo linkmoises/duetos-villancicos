@@ -36,7 +36,7 @@ las terminadas como las que están en proceso de edición:
 - [x] Pero mira como beben
 - [x] ¡Ay del chiquirritin!
 - [x] La marimorena
-- [ ] Alegrı́a, alegrı́a
+- [x] Alegrı́a, alegrı́a
 - [ ] El niño del tambor
 - [ ] ¡Dale, dale, dale!
 - [ ] Deck the hall
