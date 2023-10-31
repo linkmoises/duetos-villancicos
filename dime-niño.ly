@@ -50,8 +50,9 @@ violinUno = \new Voice \relative c'' {
 	}
 	\alternative {
 	  { c4 b d | }
-	  { c4 b2 \bar "||" }
+	  { c4 b2 | }
 	}
+	\bar "|."
 }
 
 violinDos = \new Voice \relative c'' {
@@ -83,6 +84,7 @@ violinDos = \new Voice \relative c'' {
 	  { a4 g b | }
 	  { a4 g2 \bar "||" }
 	}
+	\bar "|."
 }
 
 violinTres = \new Voice \relative c'' {
@@ -114,6 +116,7 @@ violinTres = \new Voice \relative c'' {
 	  { g2. | }
 	  { g2. \bar "||" }
 	}
+	\bar "|."
 }
 
 \score {
@@ -126,5 +129,5 @@ violinTres = \new Voice \relative c'' {
 		<< \global \violinTres >>
 	>>
 \layout { }
-\midi { }
+%%\midi { }
 }

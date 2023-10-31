@@ -44,7 +44,7 @@ violinUno = \new Voice \relative c'' {
 	}
 	d4 r8 d8 | e d c e | d4 r8 d8 | e d e fis | 
 	g( d) b e | d c b a | g2 |
-	\bar "||"
+	\bar "|."
 }
 
 violinDos = \new Voice \relative c'' {
@@ -68,7 +68,7 @@ violinDos = \new Voice \relative c'' {
 	}
 	r8 b'8 b r8 | c4 c | r8 b8 b r8 | c4 c |
 	b2 | a4 fis | d2 |
-	\bar "||"
+	\bar "|."
 }
 
 violinTres = \new Voice \relative c'' {
@@ -92,7 +92,7 @@ violinTres = \new Voice \relative c'' {
 	}
 	r8 g'8 g8 r8 | g4 g | r8 g8 g8 r8 | g4 g |
 	d2 | d4 d | g,2 |
-	\bar "||"
+	\bar "|."
 }
 
 \score {
