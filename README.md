@@ -38,12 +38,11 @@ las terminadas como las que están en proceso de edición:
 - [x] La marimorena
 - [x] Alegrı́a, alegrı́a
 - [x] Rin, rin
-- [ ] El niño del tambor
-- [ ] ¡Dale, dale, dale!
+- [x] El niño del tambor
 - [ ] Deck the hall
 - [ ] Jingle bells
-- [ ] Oh! Christmas tree
 - [ ] We wish you a Merry Christmas
+- [ ] Feliz navidad
 - [x] Extra: Nearer, My God, to Thee
 
 ## Compilando el libro
