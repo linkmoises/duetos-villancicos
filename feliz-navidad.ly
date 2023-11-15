@@ -19,8 +19,7 @@
 
 global= {
 	\time 4/4
-	%\tempo "Allegro"
-	\tempo 4 = 120
+	\tempo "Allegro"
 	\key d \major
 }
 

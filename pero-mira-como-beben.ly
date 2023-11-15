@@ -1,6 +1,6 @@
 \version "2.22.1"
 \header {
-	title = "Pero mira como beben"
+	title = "Los peces en el río"
 	subtitle = "Villancico popular extremeño"
 	composer = "Autor desconocido"
 	tagline = ##f

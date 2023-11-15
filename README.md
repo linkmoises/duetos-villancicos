@@ -39,10 +39,10 @@ las terminadas como las que están en proceso de edición:
 - [x] Alegrı́a, alegrı́a
 - [x] Rin, rin
 - [x] El niño del tambor
-- [ ] Deck the hall
-- [ ] Jingle bells
-- [ ] We wish you a Merry Christmas
-- [ ] Feliz navidad
+- [x] El burrito sabanero
+- [ ] Arre borriquito
+- [ ] Nochebuena Panameña
+- [x] Feliz navidad
 - [x] Extra: Nearer, My God, to Thee
 
 ## Compilando el libro

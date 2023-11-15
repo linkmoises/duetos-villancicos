@@ -2,7 +2,7 @@
 \header {
 	title = "El burrito sabanero"
 	subtitle = "Villancico venezolano"
-	composer = "Hugo Blanco Manzo"
+	composer = "Hugo Blanco Manzo (1940 - 2015)"
 	tagline = ##f
 }
 
@@ -19,8 +19,7 @@
 
 global= {
 	\time 2/2
-	%%\tempo Presto
-	\tempo 4 = 180
+	\tempo Presto
 	\key g \major
 }
 
@@ -109,5 +108,5 @@ violinTres = \new Voice \relative c'' {
 		<< \global \violinTres >>
 	>>
 \layout { }
-\midi { }
+%%\midi { }
 }
