@@ -40,7 +40,7 @@ las terminadas como las que están en proceso de edición:
 - [x] Rin, rin
 - [x] El niño del tambor
 - [x] El burrito sabanero
-- [ ] Arre borriquito
+- [x] Arre borriquito
 - [x] Nochebuena Panameña
 - [x] Feliz navidad
 - [x] Extra: Nearer, My God, to Thee
