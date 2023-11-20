@@ -28,8 +28,8 @@ y luego
 En esta tabla se listan las partituras que se incluirán en el libro, tanto 
 las terminadas como las que están en proceso de edición:
 
-- [x] Adeste Fideles
-- [x] Noche de Paz
+- [x] Adeste Fideles + letra
+- [x] Noche de Paz + letra
 - [x] Campanas de Belén
 - [x] Dime Niño
 - [x] Fum, fum, fum

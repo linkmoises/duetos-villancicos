@@ -56,11 +56,35 @@ violinTres = \new Voice \relative c'' {
 \score {
 	\new StaffGroup <<
 		\new Staff \with { instrumentName = "Violín 1" }
-		<< \global \violinUno >>
+			<< \global \violinUno >>
+			\addlyrics { %% volta 1 
+				No che de | paz, | no che de~a | mor |
+				to do | duerme~en | de rre | dor |
+				Entre los | as tros que | espar cen su | luz |
+				Be lla | anuncian do al | niñi to Je | sús |
+				Brilla la | estre lla de | pa | az |
+				Bri lla la | estre lla de | paz |
+			}
+			\addlyrics { %% volta 2
+				No che de | paz, | no che de~a | mor |
+				o ye | humilde~el | fiel pas | tor |
+				co ros | celes tes que | anun cian sa | lud |
+				gra cia~y | glo ria en | gran ple ni | tud |
+				Por nues | tro buen re | den tor |
+				Por nues tro | buen re den | tor
+			}
+			\addlyrics { %% volta 3
+				No che de | paz, | no che de~a | mor |
+				Ved que | bello | res plan | dor | 
+				Luce en~el | ros tro del | ni ño Je | sús | 
+				En el | pese bre del | mun do, la | luz |
+				As tro | de~eter no ful | gor | or |
+				As tro de | eter no ful | gor |
+			}
 		\new Staff \with { instrumentName = "Violín 2" }
-		<< \global \violinDos >>
+			<< \global \violinDos >>
 		\new Staff \with { instrumentName = "Violín 3" }
-		<< \global \violinTres >>
+			<< \global \violinTres >>
 	>>
 \layout { }
 %%\midi { }
