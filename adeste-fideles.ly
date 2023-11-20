@@ -55,12 +55,36 @@ violinTres = \new Voice \relative c'' {
 
 \score {
 	\new StaffGroup <<
-		\new Staff \with { instrumentName = "Violín 1" }
-		<< \global \violinUno >>
+		\new Staff = violinUno \with { instrumentName = "Violín 1" }
+			<< \global \violinUno >>
+			\addlyrics { %% volta 1
+				A | 
+				des te | fi de les | lae ti tri um | phan tes, ve | 
+				ni - te | ve ni - te | in Beth le | hem |
+				Na tum vi | de te | re gem an ge | lo rum - ve | 
+				ni te a do | re mus ve | ni te a do | re mus ve | 
+				ni te a do | re mus - | do - mi | num
+			}
+			\addlyrics { %% volta 2
+				En | 
+				gré ge | re lic to | hú mi les ad | cú nas, vo | 
+				ca - ti | pas to - res | ap pró pe | rant |
+				Et nos o | ván ti | grá du fes ti | né mus - ve | 
+				ni te a do | re mus ve | ni te a do | re mus ve | 
+				ni te a do | re mus - | do - mi | num
+			}
+			\addlyrics { %% volta 3
+				Ae | 
+				tér ni | pa rén tis | splen dó rem ae | tér num, ve | 
+				lá - tum | sub cár - ne | vi dé bi | mus |
+				Dé um in | fán tem | pán nis in vo | lu tum - ve | 
+				ni te a do | re mus ve | ni te a do | re mus ve | 
+				ni te a do | re mus - | do - mi | num
+			}
 		\new Staff \with { instrumentName = "Violín 2" }
-		<< \global \violinDos >>
+			<< \global \violinDos >>
 		\new Staff \with { instrumentName = "Violín 3" }
-		<< \global \violinTres >>
+			<< \global \violinTres >>
 	>>
 \layout { }
 %%\midi { }
