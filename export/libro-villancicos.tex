@@ -46,7 +46,7 @@
 \pagenumbering{roman}
 
 %% Tabla de contenidos
-\renewcommand{\contentsname}{Índice de Partituras} %% Índice de partituras
+\renewcommand{\contentsname}{Índice} %% Índice de partituras
 % Establecer los márgenes de la página de índice
 \newgeometry{left=5cm, right=5cm, top=2cm, bottom=2cm}
 \pdfbookmark{\contentsname}{Partituras}
@@ -61,23 +61,27 @@
 
 \pagenumbering{arabic}
 
+\setcounter{secnumdepth}{-1} % elimina numeración de chapter para que no aparezca en toc
+
 \includepdf[pages=-,addtotoc={
-    1,chapter,1,Adeste Fideles,v1,
-    2,chapter,1,Noche de Paz,v2,
-    3,chapter,1,Campanas de Belén,v3, 
-    4,chapter,1,Dime Niño,v4,
-    6,chapter,1,{Fum, fum, fum},v5,
-    8,chapter,1,Los peces en el río,v6,
-    9,chapter,1,¡Ay del chiquirritin!,v7,
-    10,chapter,1,La marimorena,v8,
-    11,chapter,1,{Alegría, alegría},v9,
-    12,chapter,1,{Rin, rin},v10,
-    14,chapter,1,El niño del tambor,v11,
-    16,chapter,1,Burrito sabanero,v12,
-    18,chapter,1,Feliz Navidad,v13,
-    19,chapter,1,Nochebuena panameña,v14,
-    20,chapter,1,Arre borriquito,v15,
-    23,chapter,1,{Extra: Nearer, My God, to Thee},extra
+    1,chapter,1,Partituras,c1,
+    1,section,2,Adeste Fideles,v1,
+    2,section,2,Noche de Paz,v2,
+    3,section,2,Campanas de Belén,v3, 
+    4,section,2,Dime Niño,v4,
+    6,section,2,{Fum, fum, fum},v5,
+    8,section,2,Los peces en el río,v6,
+    9,section,2,¡Ay del chiquirritin!,v7,
+    10,section,2,La marimorena,v8,
+    11,section,2,{Alegría, alegría},v9,
+    12,section,2,{Rin, rin},v10,
+    14,section,2,El niño del tambor,v11,
+    16,section,2,Burrito sabanero,v12,
+    18,section,2,Feliz Navidad,v13,
+    19,section,2,Nochebuena panameña,v14,
+    20,section,2,Arre borriquito,v15,
+    23,section,2,{Extra: Nearer, My God, to Thee},extra,
+    24,chapter,1,Letras,c2
     }]{../villancicos-compilados.pdf}
 
 \includepdf[pages=-]{../extend/blank.pdf}
