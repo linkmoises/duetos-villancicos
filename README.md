@@ -30,7 +30,7 @@ las terminadas como las que están en proceso de edición:
 
 - [x] Adeste Fideles + letra
 - [x] Noche de Paz + letra
-- [x] Campanas de Belén
+- [x] Campanas de Belén + letra
 - [x] Dime Niño
 - [x] Fum, fum, fum
 - [x] Pero mira como beben
