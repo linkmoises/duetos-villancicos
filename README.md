@@ -31,8 +31,8 @@ las terminadas como las que están en proceso de edición:
 - [x] Adeste Fideles + letra
 - [x] Noche de Paz + letra
 - [x] Campanas de Belén + letra
-- [x] Dime Niño
-- [x] Fum, fum, fum
+- [x] Dime Niño + letra
+- [x] Fum, fum, fum + letra
 - [x] Pero mira como beben
 - [x] ¡Ay del chiquirritin!
 - [x] La marimorena
