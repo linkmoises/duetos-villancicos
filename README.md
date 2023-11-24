@@ -41,7 +41,7 @@ las terminadas como las que están en proceso de edición:
 - [x] El niño del tambor
 - [x] El burrito sabanero
 - [x] Arre borriquito
-- [x] Nochebuena Panameña
+- [x] Nochebuena Panameña + letra
 - [x] Feliz navidad
 - [x] Extra: Nearer, My God, to Thee
 
