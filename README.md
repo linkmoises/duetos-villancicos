@@ -33,7 +33,7 @@ las terminadas como las que están en proceso de edición:
 - [x] Campanas de Belén + letra
 - [x] Dime Niño + letra
 - [x] Fum, fum, fum + letra
-- [x] Pero mira como beben
+- [x] Pero mira como beben + lírica + letra
 - [x] ¡Ay del chiquirritin!
 - [x] La marimorena
 - [x] Alegrı́a, alegrı́a
