@@ -35,12 +35,34 @@ violinTres = \new Voice \relative c'' {
 \score {
 	\new StaffGroup <<
 		\new Staff \with { instrumentName = "Violín 1" }
-		<< \global \violinUno >>
+			<< \global \violinUno >>
+			\addlyrics { %% lírica
+			}
 		\new Staff \with { instrumentName = "Violín 2" }
-		<< \global \violinDos >>
+			<< \global \violinDos >>
 		\new Staff \with { instrumentName = "Violín 3" }
-		<< \global \violinTres >>
+			<< \global \violinTres >>
 	>>
 \layout { }
 %%\midi { }
+}
+
+\markup {
+	\fill-line {
+		\hspace #1
+		\column {
+			\line \smallCaps \bold { Título }
+			\hspace #1
+			\line { verso }
+			\hspace #1
+			\line \italic { estribillo }
+		}
+		\hspace #2
+		\column {
+			\line { verso }
+			\hspace #1
+			\line \italic { estribillo }
+		}
+		\hspace #1
+	}
 }

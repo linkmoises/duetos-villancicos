@@ -1,6 +1,7 @@
 ## Directorios
 base/
 extend/
+imprenta/
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
@@ -18,5 +19,3 @@ extend/
 *.midi
 *.pdf
 *.xcf
-*.odt
-extend/libro-villancicos.pdf
