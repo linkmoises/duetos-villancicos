@@ -151,3 +151,54 @@ violinTres = \new Voice \relative c'' {
 \layout { }
 %%\midi { }
 }
+
+\markup {
+	\fill-line {
+		\hspace #1
+		\column {
+			\hspace #1
+			\line \smallCaps \bold { Campanas de Belén }
+			\line { Campana sobre campana }
+			\line { Y sobre campana una }
+			\line { Asómate a la ventana }
+			\line { Verás el niño en la cuna }
+			\hspace #1
+			\line \italic { Belén, campanas de Belén }
+			\line \italic { Que los ángeles tocan }
+			\line \italic { ¿Qué nuevas me traéis? }
+			\hspace #1
+			\line { Recogido tu rebaño }
+			\line { ¿A dónde vas, pastorcito? }
+			\line { Voy a llevar al portal }
+			\line { Requesón, manteca y vino }
+			\hspace #1
+			\line \italic { Belén, campanas de Belén [...] }
+			\hspace #1
+			\line { Campana sobre campana }
+			\line { Y sobre campana dos }			
+		}
+		\hspace #2
+		\column {
+			\hspace #1
+			\line { Asómate a la ventana }
+			\line { Porque está naciendo Dios }
+			\hspace #1
+			\line \italic { Belén, campanas de Belén [...] }
+			\hspace #1
+			\line { Caminando a medianoche }
+			\line { ¿Dónde caminas, pastor? }
+			\line { Le llevo al niño que nace }
+			\line { Como Dios mi corazón }
+			\hspace #1
+			\line \italic { Belén, campanas de Belén [...] }
+			\hspace #1
+			\line { Campana sobre campana }
+			\line { Y sobre campana una }
+			\line { Asómate a la ventana }
+			\line { Verás el niño en la cuna }
+			\hspace #1
+			\line \italic { Belén, campanas de Belén [...] }
+		}
+		\hspace #1
+	}
+}
