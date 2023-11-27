@@ -32,7 +32,7 @@ las terminadas como las que están en proceso de edición:
 - [x] Noche de Paz + lírica + letra
 - [x] Campanas de Belén + lírica + letra
 - [x] Dime Niño + letra
-- [x] Fum, fum, fum + letra
+- [x] Fum, fum, fum + lírica + letra
 - [x] Pero mira como beben + lírica + letra
 - [x] ¡Ay del chiquirritin!
 - [x] La marimorena
@@ -41,8 +41,8 @@ las terminadas como las que están en proceso de edición:
 - [x] El niño del tambor
 - [x] El burrito sabanero
 - [x] Arre borriquito
-- [x] Nochebuena Panameña + letra
-- [x] Feliz navidad
+- [x] Nochebuena Panameña + lírica + letra
+- [x] Feliz navidad + lírica + letra
 - [x] Extra: Nearer, My God, to Thee
 
 ## Compilando el libro

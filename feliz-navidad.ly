@@ -77,12 +77,64 @@ violinTres = \new Voice \relative c'' {
 \score {
 	\new StaffGroup <<
 		\new Staff \with { instrumentName = "Violín 1" }
-		<< \global \violinUno >>
+			<< \global \violinUno >>
+			\addlyrics {
+				Fe liz na vi | dad, | fe liz na vi | dad |
+				Fe liz na vi | dad, | prós pe ro a | ño y fe li ci dad |
+				Fe liz na vi |
+				I wa nna wish you a me rry christ mas
+				I wa nna wish you a me rry christ mas
+				I wa nna wish you a me rry christ mas
+				From the bo ttom of my _ heart
+			}
+			\addlyrics {
+				\skip 1 \skip 1 \skip 1 \skip 1 | dad, |
+				fe liz na vi | dad |
+				Fe liz na vi | dad, | prós pe ro a | ño y fe li ci dad |
+			}
 		\new Staff \with { instrumentName = "Violín 2" }
-		<< \global \violinDos >>
+			<< \global \violinDos >>
 		\new Staff \with { instrumentName = "Violín 3" }
-		<< \global \violinTres >>
+			<< \global \violinTres >>
 	>>
 \layout { }
 %%\midi { }
+}
+
+\markup {
+	\fill-line {
+		\hspace #1
+		\column {
+			\line \smallCaps \bold { Feliz navidad }
+			\hspace #1
+			\line \italic { Feliz Navidad, feliz Navidad }
+			\line \italic { Feliz Navidad, próspero año }
+			\line \italic { Y felicidad }
+			\hspace #1
+			\line \italic { Feliz Navidad, feliz Navidad }
+			\line \italic { Feliz Navidad, próspero año }
+			\line \italic { Y felicidad }
+			\hspace #1
+			\line { I wanna wish you a merry Christmas }
+			\line { I wanna wish you a merry Christmas }
+			\line { I wanna wish you a merry Christmas }
+			\line { from the bottom of my heart }
+		}
+		\hspace #2
+		\column {
+			\line \italic { Feliz Navidad, feliz Navidad }
+			\line \italic { Feliz Navidad, próspero año }
+			\line \italic { Y felicidad }
+			\hspace #1
+			\line \italic { Feliz Navidad, feliz Navidad }
+			\line \italic { Feliz Navidad, próspero año }
+			\line \italic { Y felicidad }
+			\hspace #1
+			\line { I wanna wish you a merry Christmas }
+			\line { I wanna wish you a merry Christmas }
+			\line { I wanna wish you a merry Christmas }
+			\line { from the bottom of my heart }
+		}
+		\hspace #1
+	}
 }
