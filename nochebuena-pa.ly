@@ -84,6 +84,39 @@ violinTutti = \new Voice \relative c'' {
 	\bar "|."
 }
 
+\markup {
+	\fill-line {
+		\hspace #1
+		\column {
+			\line { Me voy para Panamá a pasar la Nochebuena }
+			\line \italic { Nochebuena, nochebuena, nochebuena panameña }
+			\hspace #1
+			\line { Un nacimiento pondré y a la puerta de mi casa }
+			\line \italic { Nochebuena, nochebuena, nochebuena panameña }
+			\hspace #1
+			\line { Con figuras de papel y una estrellita de plata }
+			\line \italic { Nochebuena, nochebuena, nochebuena panameña }
+			\hspace #1
+			\line { Y con los tres Reyes Magos, uno negro y otro blanco }
+			\line \italic { Nochebuena, nochebuena, nochebuena panameña }
+			\hspace #1
+			\hspace #1
+		}
+		\hspace #2
+		\column {
+			\line { Y el otro descolorido, sin color determinado }
+			\line \italic { Nochebuena, nochebuena, nochebuena panameña }
+			\hspace #1
+			\line { La Virgen y San José con un Niño muy chiquito }
+			\line \italic { Nochebuena, nochebuena, nochebuena panameña }
+			\hspace #1
+			\line { Y en honor a las familias yo canto este tamborito }
+			\line \italic { Nochebuena, nochebuena, nochebuena panameña }
+		}
+		\hspace #1
+	}
+}
+
 \score {
 	\new StaffGroup <<
 		\new Staff \with { instrumentName = "Violin Solo" }
