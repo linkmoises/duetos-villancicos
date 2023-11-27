@@ -163,3 +163,50 @@ violinTres = \new Voice \relative c'' {
 \layout { }
 %%\midi { }
 }
+
+\markup {
+	\fill-line {
+		\hspace #1
+		\column {
+			\line \smallCaps \bold { Dime niño }
+			\hspace #1
+			\line { Dime, Niño, de quién eres }
+			\line { Todo vestidito de blanco }
+			\line { Soy de la Virgen María }
+			\line { Y del Espíritu Santo }
+			\hspace #1
+			\line { Dime, Niño, de quién eres }
+			\line { Y si te llamas Jesús }
+			\line { Soy amor en el pesebre }
+			\line { Y sufrimiento en la cruz }
+			\hspace #1
+			\line \italic { Resuenen con alegría }
+			\line \italic { Los cánticos de mi tierra }
+			\line \italic { Y viva el Niño de Dios }
+			\line \italic { Que nació en la Nochebuena }
+			\hspace #1
+			\line \italic { Resuenen con alegría }
+			\line \italic { Los cánticos de mi tierra }
+			\line \italic { Y viva el Niño de Dios }
+			\line \italic { Que nació en la Nochebuena }
+		}
+		\hspace #2
+		\column {
+			\line { La Nochebuena se viene, tururú }
+			\line { La Nochebuena se va }
+			\line { Y nosotros nos iremos, tururú }
+			\line { Y no volveremos más }
+			\hspace #1
+			\line \italic { Resuenen con alegría }
+			\line \italic { Los cánticos de mi tierra }
+			\line \italic { Y viva el Niño de Dios }
+			\line \italic { Que nació en la Nochebuena }
+			\hspace #1
+			\line \italic { Resuenen con alegría }
+			\line \italic { Los cánticos de mi tierra }
+			\line \italic { Y viva el Niño de Dios }
+			\line \italic { Que nació en la Nochebuena }
+		}
+		\hspace #1
+	}
+}

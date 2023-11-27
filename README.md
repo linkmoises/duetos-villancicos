@@ -31,7 +31,7 @@ las terminadas como las que están en proceso de edición:
 - [x] Adeste Fideles + lírica + letra
 - [x] Noche de Paz + lírica + letra
 - [x] Campanas de Belén + lírica + letra
-- [x] Dime Niño + letra
+- [x] Dime Niño + lírica + letra
 - [x] Fum, fum, fum + lírica + letra
 - [x] Pero mira como beben + lírica + letra
 - [x] ¡Ay del chiquirritin!
