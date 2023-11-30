@@ -34,8 +34,8 @@ las terminadas como las que están en proceso de edición:
 - [x] Dime Niño + lírica + letra
 - [x] Fum, fum, fum + lírica + letra
 - [x] Pero mira como beben + lírica + letra
-- [x] ¡Ay del chiquirritin!
-- [x] La marimorena
+- [x] ¡Ay del chiquirritin! + lírica + letra
+- [x] La marimorena + lírica + letra
 - [x] Alegrı́a, alegrı́a
 - [x] Rin, rin
 - [x] El niño del tambor
