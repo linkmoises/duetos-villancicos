@@ -2,6 +2,7 @@
 base/
 extend/
 imprenta/
+export/
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
@@ -19,4 +20,4 @@ imprenta/
 *.midi
 *.pdf
 *.xcf
-.~lock*
+*.~lock*
