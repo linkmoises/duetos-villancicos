@@ -44,7 +44,7 @@ violinUno = \new Voice \relative c'' {
 }
 
 violinDos = \new Voice \relative c'' {
-	\repeat segnz 3 {
+	\repeat segno 3 {
 		fis,4 fis8 | fis fis fis | fis fis16 fis fis fis | fis8 fis fis |
 		fis e fis | g4 e8 | cis4. | e'4 cis8 |
 		a8 a e | cis8 cis'16 cis cis cis | cis8 r8 a16 b | cis8 r8 a16 b | 
