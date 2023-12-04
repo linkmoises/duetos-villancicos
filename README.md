@@ -41,7 +41,7 @@ las terminadas como las que están en proceso de edición:
 - [x] La marimorena + lírica + letra
 - [x] Alegrı́a, alegrı́a + lírica + letra
 - [x] Rin, rin + lírica + letra
-- [x] El niño del tambor
+- [x] El niño del tambor + lírica + letra
 - [x] El burrito sabanero + lírica + letra
 - [x] Arre borriquito
 - [x] Nochebuena Panameña + lírica + letra
