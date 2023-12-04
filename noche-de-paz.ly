@@ -31,6 +31,7 @@ violinUno = \new Voice \relative c'' {
 		b2 b4 | d4. cis8 b4 | a4. b8 a4 | fis2. |
 		e'2 e4 | g4. e8 cis4 \break | d2. | fis2. |
 		d4. a8 fis4 | a4. g8 e4 | d2.( | d4) r2 |
+		\bar "|."
 	}
 }
 
@@ -53,7 +54,6 @@ violinTres = \new Voice \relative c'' {
 		d2. | d2. | d2. | a2. |
 		a2. | ais2. | b2. | d2. |
 		a2. | a2. | d2.( | d4) r2 |
-		\bar ":|." 
 	}
 }
 

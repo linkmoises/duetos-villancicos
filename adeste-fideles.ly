@@ -31,6 +31,7 @@ violinUno = \new Voice \relative c'' {
 		a'2 g4 fis \break | g2 fis2 | e4 fis d e | cis4. b8 a4 d  |
 		d4 cis d e | d2 a4 fis' \break | fis4 e fis g | fis2 e4 fis |
 		g4 fis e d | cis2 d4 g | fis2 e4. d8 | d2.
+		\bar "|."
 	}
 }
 
