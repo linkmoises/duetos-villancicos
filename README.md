@@ -36,8 +36,8 @@ las terminadas como las que están en proceso de edición:
 - [x] Pero mira como beben + lírica + letra
 - [x] ¡Ay del chiquirritin! + lírica + letra
 - [x] La marimorena + lírica + letra
-- [x] Alegrı́a, alegrı́a
-- [x] Rin, rin
+- [x] Alegrı́a, alegrı́a + lírica + letra
+- [x] Rin, rin + lírica + letra
 - [x] El niño del tambor
 - [x] El burrito sabanero
 - [x] Arre borriquito
